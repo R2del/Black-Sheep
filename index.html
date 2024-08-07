@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SmokeShop">
+    <meta name="keywords" content="SmokeShop, tienda de pipas, tienda de bong, tienda de articulos para fumador">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Sheep</title>
+    <style>
+        body {
+            background: url('background/bg.png.pn') no-repeat center center fixed;
+            background-size: cover;
+            background-color: rgb(72, 238, 94);
+            color: #000000;
+            font-family: Verdana;
+            margin: 0px;
+            padding: 0px;
+        }
+
+.slider {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: none;
+    transition: transform 0.5s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0.5px; /* Aumenta el padding para dar más espacio */
+    margin-top: 20px;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+    transition: transform 0.5s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%; /* Aumenta el padding para dar más espacio */
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.show {
+    display: block;
+}
+        .container {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgb(0, 0, 0); 
+        background-size: cover;
+        background-color: #795d30;
+    }
+    header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        header img.logo {
+            width: 250px; /* Ajusta el tamaño del logo según sea necesario */
+            height: auto; 
+        }
+        .menu img {
+            margin-left: 30px;
+            width: 100px;
+            height: auto;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+        .menu a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 18px;
+        }
+        .content {
+            background-color: #f55f5ffd;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px; /* Aumenta el padding para dar más espacio */
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.footer .a {
+    color: #000000;
+    align-items: center;
+}
+.footer .left,
+.footer .center,
+.footer .right {
+    flex: 1;
+    text-align: center;
+}
+.footer .left {
+    flex: 1;
+    text-align: center;
+}
+.footer .right {
+    flex: 1;
+    text-align: center;
+}
+.footer img {
+    width: 150px; /* Aumenta el tamaño del icono si es necesario */
+    height: auto;
+}
+.footer .a img {
+    width: 26px; /* Aumenta el tamaño del icono si es necesario */
+    height: auto;
+}
+    .products {
+         display: flex;
+            background-color: #f162da;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            padding: 30px;
+            height: 100%;
+            border-radius: 10px;
+    }
+    .product {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 48%;
+            margin-bottom: 50px;
+            background-color: #fffffff1;
+            padding: 10px;
+            box-shadow: 0 0 5px rgb(0, 0, 0);
+            border-radius: 100px;
+            transition: transform 0.2s;
+    }
+    .product:hover {
+        transform: scale(1.02);
+    }
+    .product img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+    .product-description {
+        text-align: left;
+        width: 90%;
+    }
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .column {
+            width: 30%;
+            text-align: center;
+        }
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+        .column h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .column ul li {
+            margin-bottom: 10px;
+        }
+        .column ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img align: right;>
+        <header>
+
+            <img src="logo/logo.png.png" class="logo" alt="Logo">
+            <div class="menu">
+                <a href="file:///D:/Smoke%20N%20Water/index.html">Inicio</a>
+                <a href="file:///D:/Smoke%20N%20Water/menu.html">Tienda</a>
+                <a href="file:///D:/Smoke%20N%20Water/sobrenosotros.html">Sobre Nosotros</a>
+                <a href="file:///D:/Smoke%20N%20Water/contacto.html">Contacto</a>
+            </div>
+        </div>
+
+        </header>
+
+        <div class="content">
+            <h1>La mejor SmokeShop.</h1>
+            <p>Bienvenidos a La SmokeShop de Cochabamba, el destino definitivo para los entusiastas del smoke en la ciudad. Nos dedicamos a revolucionar el mercado ofreciendo productos de primera calidad, desde los más finos tabacos hasta los accesorios más innovadores. Nuestra misión es brindar una experiencia excepcional a nuestros clientes, combinando la excelencia de nuestros productos con precios competitivos.</p>
+            <p>En La SmokeShop de Cochabamba, encontrarás una amplia variedad de opciones que se adaptan a todos los gustos y necesidades. Nos enorgullece ofrecer productos de marcas reconocidas y confiables, asegurando que cada compra sea una inversión en calidad y satisfacción. Además, nuestro equipo de expertos está siempre disponible para asesorarte y ayudarte a encontrar exactamente lo que buscas.</p>
+            <p>Ya sea que seas un conocedor experimentado o alguien que recién se adentra en el mundo del smoke, en nuestra tienda encontrarás un ambiente acogedor y un servicio personalizado que hará de tu visita una experiencia memorable.</p>
+            <p>Visítanos y descubre por qué somos la elección preferida en Cochabamba para todo lo relacionado con el smoke.</p>
+            <p>¡Te esperamos con los mejores productos y las mejores ofertas!</p>   
+            <div class="product">
+                <img src="productos/bulldog1.4paper.png" alt="Producto 1">
+                <div class="product-description">
+                    <h3><strong>&nbsp;The Bulldog Amsterdam - 1/4 Papelillos</strong></h3>
+                    <p><strong>&nbsp;Descripción:</strong></p> 
+                    <p>&nbsp;• Los papelillos The Bulldog Amsterdam 1/4 son conocidos por su calidad superior    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y por ofrecer una experiencia de fumado suave y agradable.</p> <p>&nbsp;• Hechos de papel ultra fino, estos papelillos permiten una combustión</p> <p>&nbsp;lenta y uniforme, destacándose por su resistencia y por no alterar el sabor.</p>
+                    <p><strong>Características:</strong></p>
+                    <p>✔ Papel ultra fino</p>
+                    <p>✔ Combustión lenta</p>
+                    <p>✔ Resistente y fácil de manejar</p>
+                    <p><strong>Precio: 8Bs.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="footer">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="left" style="float: left;">
+                <a><img src="offer/mejoofer.png" alt="Botón Red Social Instagram"></a>
+                <strong><p>Las mejores ofertas</p></strong>
+                    </p>Tenemos los mejores precios en Black Sheep, no olvides seguirnos para conseguir cupones de descuento</p>
+                </a>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="center" style="text-align: center;">
+                <a><img src="offer/primcal.png" alt=""></a>
+                    <strong><p>Productos de primera calidad</p></strong>
+                </p>Descubre nuestra selección de productos de primera calidad. </p>
+                </a>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="right" style="float: right;">
+                <a><img src="offer/pagseg.png" alt="Botón Red Social Instagram"></a>
+                <strong><p>Pagos seguros</p></strong>
+                    </p>Podrás realizar el pago contra entrega &nbsp;&nbsp;o mediante tu banco de preferencia</p>
+                </a>
+            </div>
+        </div>
+<div class="slider">
+    <div class="slide">
+        <img src="marcas/amsterdam.png" alt="Imagen 1">
+    </div>
+    <div class="slide">
+        <img src="marcas/honeypuff.png" alt="Imagen 2">
+    </div>
+    <div class="slide">
+        <img src="marcas/kingblunt.png" alt="Imagen 3">
+    </div>
+    <div class="slide">
+        <img src="marcas/lionrollingcircus.png" alt="Imagen 4">
+    </div>
+    <div class="slide">
+        <img src="marcas/mantra.png" alt="Imagen 5">
+    </div>
+    <div class="slide">
+        <img src="marcas/ocb.png" alt="Imagen 6">
+    </div>
+    <div class="slide">
+        <img src="marcas/thebullDog.png" alt="Imagen 7">
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+
+<br>
+
+<div class="container">
+    <div class="section">
+        <div class="column">
+            <img src="logo/logo.png.png" alt="Imagen de Marca">
+        </div>
+        <div class="column">
+            <h2>Marcas</h2>
+            <ul>
+                <li><a href="https://ocb.net/es/ocbproducto/">OCB</a></li>
+                <li><a href="https://www.lionrollingcircus.com/lionrollingcircus.php">Lion Rolling Circus</a></li>
+                <li><a href="https://honeypuffofficial.com/">Honey Puff</a></li>
+                <li><a href="https://www.rollingamsterdam.com/">Amsterdam</a></li>
+                <li><a href="https://bluntwrap.com.mx/site/">Blunt Wrap</a></li>
+                <li><a href="https://mantrapaper.com/home/">Mantra</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Tienda</h2>
+            <ul>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Bongs</a></li>
+                <li><a href="#">Grinders</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Papelillos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer .a">
+            <div class="a" style="text-align: center;">
+        <br>Copyright © 2024 Black Sheep.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="socialmedia/instagramicon.png" width="20px" height="20px" alt="Botón Red Social Instagram"><a href="file:///D:/Smoke%20N%20Water/index.html"></a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="file:///D:/Smoke%20N%20Water/index.html"><img src="socialmedia/facebookicon.png" alt="Botón Red Social Facebook"></a>     
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="file:///D:/Smoke%20N%20Water/index.html"><img src="socialmedia/tiktokicon.png"  alt="Botón Red Social Tik Tok"></a>       
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="file:///D:/Smoke%20N%20Water/index.html"><img src="socialmedia/ubiicon.png"  alt="Botón de Ubicacion"></a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=DKVB_CtU8XQ"><img src="socialmedia/youtubeicon.png" alt="Botón de Red Social Youtube"></a>       
+        </div> 
+    </div>
+</div>
+</body>
+</html>
